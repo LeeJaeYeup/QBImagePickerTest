@@ -15,6 +15,9 @@
 		34DDF85A20F8857C008285C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF85920F8857C008285C2 /* main.m */; };
 		34DDF86420F8857C008285C2 /* QBImagePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF86320F8857C008285C2 /* QBImagePickerControllerTests.m */; };
 		34DDF86F20F8857C008285C2 /* QBImagePickerControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF86E20F8857C008285C2 /* QBImagePickerControllerUITests.m */; };
+		4B5C1DC6F6E391454E3D1209 /* libPods-QBImagePickerControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E68C14EE4DE0B0933C581A /* libPods-QBImagePickerControllerTests.a */; };
+		B799B51610913D763F980F72 /* libPods-QBImagePickerControllerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F71E101B685943E5F1B67D0 /* libPods-QBImagePickerControllerUITests.a */; };
+		E87295DFB54F5EC60F50FB7F /* libPods-QBImagePickerController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 295913F2EA83859A8554A399 /* libPods-QBImagePickerController.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F71E101B685943E5F1B67D0 /* libPods-QBImagePickerControllerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QBImagePickerControllerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2457901D3193B369BF2F97B0 /* Pods-QBImagePickerControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBImagePickerControllerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QBImagePickerControllerUITests/Pods-QBImagePickerControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		295913F2EA83859A8554A399 /* libPods-QBImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QBImagePickerController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DDF84720F8857A008285C2 /* QBImagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBImagePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DDF84A20F8857A008285C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34DDF84B20F8857A008285C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		34DDF86A20F8857C008285C2 /* QBImagePickerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBImagePickerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DDF86E20F8857C008285C2 /* QBImagePickerControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBImagePickerControllerUITests.m; sourceTree = "<group>"; };
 		34DDF87020F8857C008285C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67CB24A7B7ACE5DDD9ACE665 /* Pods-QBImagePickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBImagePickerController.release.xcconfig"; path = "Pods/Target Support Files/Pods-QBImagePickerController/Pods-QBImagePickerController.release.xcconfig"; sourceTree = "<group>"; };
+		740DC526ED36C8FFB0F8032E /* Pods-QBImagePickerControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBImagePickerControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QBImagePickerControllerUITests/Pods-QBImagePickerControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		868ABAAD9EFC35AD0678B76F /* Pods-QBImagePickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBImagePickerController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QBImagePickerController/Pods-QBImagePickerController.debug.xcconfig"; sourceTree = "<group>"; };
+		9D6B86B96A359B26B3BB39C9 /* Pods-QBImagePickerControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBImagePickerControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QBImagePickerControllerTests/Pods-QBImagePickerControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E68C14EE4DE0B0933C581A /* libPods-QBImagePickerControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QBImagePickerControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8109FA900F0AF69C9D0711B /* Pods-QBImagePickerControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBImagePickerControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QBImagePickerControllerTests/Pods-QBImagePickerControllerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87295DFB54F5EC60F50FB7F /* libPods-QBImagePickerController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5C1DC6F6E391454E3D1209 /* libPods-QBImagePickerControllerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B799B51610913D763F980F72 /* libPods-QBImagePickerControllerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				34DDF86220F8857C008285C2 /* QBImagePickerControllerTests */,
 				34DDF86D20F8857C008285C2 /* QBImagePickerControllerUITests */,
 				34DDF84820F8857A008285C2 /* Products */,
+				3BF3A3ABF4BB157F599B064B /* Pods */,
+				69C225726A8F6C17E32ADB9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,29 @@
 			path = QBImagePickerControllerUITests;
 			sourceTree = "<group>";
 		};
+		3BF3A3ABF4BB157F599B064B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				868ABAAD9EFC35AD0678B76F /* Pods-QBImagePickerController.debug.xcconfig */,
+				67CB24A7B7ACE5DDD9ACE665 /* Pods-QBImagePickerController.release.xcconfig */,
+				9D6B86B96A359B26B3BB39C9 /* Pods-QBImagePickerControllerTests.debug.xcconfig */,
+				F8109FA900F0AF69C9D0711B /* Pods-QBImagePickerControllerTests.release.xcconfig */,
+				2457901D3193B369BF2F97B0 /* Pods-QBImagePickerControllerUITests.debug.xcconfig */,
+				740DC526ED36C8FFB0F8032E /* Pods-QBImagePickerControllerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69C225726A8F6C17E32ADB9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				295913F2EA83859A8554A399 /* libPods-QBImagePickerController.a */,
+				F6E68C14EE4DE0B0933C581A /* libPods-QBImagePickerControllerTests.a */,
+				1F71E101B685943E5F1B67D0 /* libPods-QBImagePickerControllerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34DDF87320F8857C008285C2 /* Build configuration list for PBXNativeTarget "QBImagePickerController" */;
 			buildPhases = (
+				AFCE7C628FE0616BAFD29538 /* [CP] Check Pods Manifest.lock */,
 				34DDF84320F8857A008285C2 /* Sources */,
 				34DDF84420F8857A008285C2 /* Frameworks */,
 				34DDF84520F8857A008285C2 /* Resources */,
+				53099FEF2F141D49F87B2033 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34DDF87620F8857C008285C2 /* Build configuration list for PBXNativeTarget "QBImagePickerControllerTests" */;
 			buildPhases = (
+				A3D4D620B0F7E3B8473EBF1B /* [CP] Check Pods Manifest.lock */,
 				34DDF85B20F8857C008285C2 /* Sources */,
 				34DDF85C20F8857C008285C2 /* Frameworks */,
 				34DDF85D20F8857C008285C2 /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34DDF87920F8857C008285C2 /* Build configuration list for PBXNativeTarget "QBImagePickerControllerUITests" */;
 			buildPhases = (
+				A4D45426970ED33DD5CA3AAD /* [CP] Check Pods Manifest.lock */,
 				34DDF86620F8857C008285C2 /* Sources */,
 				34DDF86720F8857C008285C2 /* Frameworks */,
 				34DDF86820F8857C008285C2 /* Resources */,
@@ -256,6 +300,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53099FEF2F141D49F87B2033 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QBImagePickerController/Pods-QBImagePickerController-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBImagePickerController/Pods-QBImagePickerController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D4D620B0F7E3B8473EBF1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QBImagePickerControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D45426970ED33DD5CA3AAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QBImagePickerControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFCE7C628FE0616BAFD29538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QBImagePickerController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		34DDF84320F8857A008285C2 /* Sources */ = {
@@ -431,9 +550,12 @@
 		};
 		34DDF87420F8857C008285C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868ABAAD9EFC35AD0678B76F /* Pods-QBImagePickerController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82533649EW;
 				INFOPLIST_FILE = QBImagePickerController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,15 +563,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = skoinfo.co.kr.QBImagePickerController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		34DDF87520F8857C008285C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CB24A7B7ACE5DDD9ACE665 /* Pods-QBImagePickerController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82533649EW;
 				INFOPLIST_FILE = QBImagePickerController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,12 +583,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = skoinfo.co.kr.QBImagePickerController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		34DDF87720F8857C008285C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6B86B96A359B26B3BB39C9 /* Pods-QBImagePickerControllerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +609,7 @@
 		};
 		34DDF87820F8857C008285C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8109FA900F0AF69C9D0711B /* Pods-QBImagePickerControllerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +628,7 @@
 		};
 		34DDF87A20F8857C008285C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2457901D3193B369BF2F97B0 /* Pods-QBImagePickerControllerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QBImagePickerControllerUITests/Info.plist;
@@ -516,6 +646,7 @@
 		};
 		34DDF87B20F8857C008285C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740DC526ED36C8FFB0F8032E /* Pods-QBImagePickerControllerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QBImagePickerControllerUITests/Info.plist;
