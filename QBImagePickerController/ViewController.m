@@ -22,6 +22,8 @@
 
 - (IBAction)goAssetView:(id)sender {
     [self startAssetView];
+    // ㄴㄷㅅ
+    
 }
 
 - (void) startAssetView {
